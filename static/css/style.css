@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #2BBEE9;
+    --color-secundary: #35196D;
+    --color-white: #fff;
+}
+
+body {
+    background: var(--color-primary);
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+button:hover {
+    text-decoration: underline;
+}

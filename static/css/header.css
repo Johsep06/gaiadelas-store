@@ -1,0 +1,48 @@
+header {
+    background-color: var(--color-secundary);
+    text-align: center;
+    color: var(--color-white);
+}
+
+.menu {
+    padding: 10px 0 10px 0;
+    border: 1px solid red;
+}
+
+#menu-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    display: inline;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+#user-container > div {
+    margin-right: 10px;
+}
+
+#space {
+    width: 90%;
+}
+
+a, a:visited, a:active  {
+    color:  var(--color-white);
+}
+
+a:hover {
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+nav > a {
+    margin: 0 5px 0 5px;
+}
+
+a {
+    padding: 7px;
+}
