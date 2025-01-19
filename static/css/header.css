@@ -1,12 +1,12 @@
 header {
-    background-color: var(--color-secundary);
+    background: rgb(2,0,36);
+    background: linear-gradient(147deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(42,25,109,1) 100%);
     text-align: center;
     color: var(--color-white);
 }
 
 .menu {
     padding: 10px 0 10px 0;
-    border: 1px solid red;
 }
 
 #menu-user {
@@ -18,8 +18,13 @@ header {
     display: inline;
 }
 
-h2 {
-    margin-left: 10px;
+#logo {
+    margin-left: 1em;
+    height: 20px;
+}
+img {
+    height: 2.5em;
+    width: auto;
 }
 
 #user-container > div {
@@ -32,17 +37,15 @@ h2 {
 
 a, a:visited, a:active  {
     color:  var(--color-white);
+    text-decoration: none;
 }
 
 a:hover {
-    color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-white);
+    text-decoration: none;
 }
 
 nav > a {
     margin: 0 5px 0 5px;
-}
-
-a {
     padding: 7px;
 }

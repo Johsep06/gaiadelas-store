@@ -5,15 +5,18 @@
 }
 
 :root {
-    --color-primary: #2BBEE9;
-    --color-secundary: #35196D;
-    --color-white: #fff;
+    --color-primary: #2a196d;
+    --color-secondary: #090979;
+    --color-tertiary: #020024;
+    --color-white: #f0f0f0;
+    --color-backg: #f1f1f1;
 }
 
 body {
-    background: var(--color-primary);
-    font-size: 1em;
+    background: var(--color-backg);/*linear-gradient(135deg, #3E4F9F, #1DD5F1); /* var(--color-white);*/
+    font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
 }
 
 button {

@@ -7,15 +7,17 @@
         <link rel="icon" href="{{ url_for('static', filename='imgs/icon.png') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/feed-store.css') }}">
     </head>
     <body>
         <header id="header"></header>
-        <main></main>
+        <main id="feed-store"></main>
         <footer></footer>
     </body>
     <script src="{{ url_for('static', filename='js/script.js') }}">
     </script>
     <script>
-        render_container("/header", "header")
+        render_container("/header", "header");
+        render_container("/feed", "feed-store");
     </script>
 </html>

@@ -9,3 +9,7 @@ def home():
 @home_route.route('/header')
 def header():
     return render_template('header.html')
+
+@home_route.route('/feed')
+def feed():
+    return render_template('feed-store.html')

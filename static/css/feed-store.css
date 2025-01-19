@@ -1,0 +1,17 @@
+.itens-container {
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.item {
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 6em;
+    width: 5em;
+}
