@@ -1,14 +1,11 @@
-<div class="menu" id="menu-user">
-    <div id="logo"><img src="{{ url_for('static', filename='imgs/logo branco.png')}}" alt=""></div>
-    <div class="user" id="user-container">
-        <div class="user" id="account">conta</div>
-        <div class="user" id="cart">cart</div>
-    </div>
-</div>
-<div class="menu" id="menu-site">
+<img src="{{ url_for('static', filename='imgs/gaiadelas-store-white.png') }}" id="logo">
+<aside>
     <nav>
-        <a href="#">Tudo</a>
-        <a href="#">Para Você</a>
-        <a href="#">Promoções</a>
+        <a href="#">Home</a>
+        <a href="#">Categorias</a>
+        <a href="#">Contato</a>
     </nav>
-</div>
+    <div class="user-img-container">
+        <img src="{{ url_for('static', filename='imgs/user.png') }}" id="user">
+    </div>
+</aside>

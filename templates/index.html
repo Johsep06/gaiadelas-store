@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gaiadelas Store</title>
-        <link rel="icon" href="{{ url_for('static', filename='imgs/icon.png') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/feed-store.css') }}">
-    </head>
-    <body>
-        <header id="header"></header>
-        <main id="feed-store"></main>
-        <footer></footer>
-    </body>
-    <script src="{{ url_for('static', filename='js/script.js') }}">
-    </script>
-    <script>
-        render_container("/header", "header");
-        render_container("/feed", "feed-store");
-    </script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaiadelas Store</title>
+    <link rel="icon" href="{{ url_for('static', filename='imgs/icon.png') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/feed-store.css') }}">
+</head>
+
+<body>
+    <header id="main-header"></header>
+    <main id="main-feed"></main>
+    <footer id="main-footer"></footer>
+</body>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+<script>
+    render_container('/header', 'main-header')
+</script>
+
 </html>
