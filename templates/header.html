@@ -1,11 +1,11 @@
 <img src="{{ url_for('static', filename='imgs/gaiadelas-store-white.png') }}" id="logo">
-<aside>
+<section>
     <nav>
-        <a href="#">Home</a>
+        <a class="selected" href="{{ url_for('home.home') }}">Home</a>
         <a href="#">Categorias</a>
         <a href="#">Contato</a>
     </nav>
     <div class="user-img-container">
         <img src="{{ url_for('static', filename='imgs/user.png') }}" id="user">
     </div>
-</aside>
+</section>

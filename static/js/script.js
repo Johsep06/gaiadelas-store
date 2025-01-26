@@ -14,3 +14,7 @@ function render_container(route, containerId) {
             console.error('Erro ao carregar conteúdo:', error);
         });
 }
+
+function change_page(page) {
+    window.location.href = page
+}
