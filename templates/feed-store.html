@@ -1,74 +1,11 @@
-<section>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-</section>
-<section>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-    <article>
-        <figure class="item-img"></figure>
-        <h4>Produto</h4>
-        <h6>valor</h6>
-    </article>
-</section>
+{% for i in range(4) %}
+    <section>
+        {% for i in range(5) %}
+            <article>
+                <figure class="item-img"></figure>
+                <h4>Produto</h4>
+                <h6>valor</h6>
+            </article>
+        {% endfor %}
+    </section>
+{% endfor %}

@@ -13,3 +13,7 @@ def header():
 @home_route.route('/feed')
 def feed():
     return render_template('feed-store.html')
+
+@home_route.route('/footer')
+def footer():
+    return render_template('footer.html')

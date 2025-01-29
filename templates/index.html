@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/feed-store.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
 </head>
 
 <body>
@@ -23,6 +24,7 @@
 <script>
     render_container('/header', 'main-header')
     render_container('/feed', 'main-feed')
+    render_container('/footer', 'main-footer')
 </script>
 
 </html>

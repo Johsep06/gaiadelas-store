@@ -1,0 +1,7 @@
+footer {
+    height: 15vh;
+    width: 95vw;
+    border-top: 1px solid var(--color-font);
+    margin: auto;
+    margin-top: 20px;
+}
